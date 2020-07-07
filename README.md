@@ -22,7 +22,10 @@ El servicio se levanta de la siguiente forma:
 ```
 ["hola", "que tal?", "soy el lobo"] | ./client --server-addr localhost:8080
 ```
-
+```
+client> hola
+server> 4
+```
 ## Valoración
 1. Se valorará muy positivamente que se utilice Docker y docker-compose para orquestar los servicios.
 2. Se valorará muy positivamente que se utilice Django y Gin como frameworks para construir los microservicios.
